@@ -1,6 +1,15 @@
 # log4cppExample
 
 
+### 安装log4cpp 
+
+```
+./configure 
+make
+make check && make install
+```
+
+
 ### Eclipse 添加C++11支持
 
 ```
