@@ -71,7 +71,6 @@ void configWrite() {
 	// 这些对象即使配置文件没有定义也可以使用，不过其属性继承其父category
 	// 通常使用引用可能不太方便，可以使用指针，以后做指针使用
 	// log4cpp::Category* root = &log4cpp::Category::getRoot();
-//	log4cpp::Category &root = log4cpp::Category::getRoot();
 
 	log4cpp::Category &sub1 = log4cpp::Category::getInstance(
 			std::string("sub1"));
